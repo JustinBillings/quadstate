@@ -4,7 +4,7 @@ angular.module('qss', ['ui.router'])
   $stateProvider
     .state('home', {
       url:'/',
-      templateUrl: '../src/views/home.html'
+      templateUrl: '..public/src/views/home.html'
     })
     .state('gallery', {
       url:'/gallery',
